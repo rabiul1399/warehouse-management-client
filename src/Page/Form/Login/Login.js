@@ -36,11 +36,11 @@ const Login = () => {
           navigate(from,{replace:true});
       }
 
-    const handleSubmit = event =>{
+    const handleSubmit =async event =>{
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-           signInWithEmailAndPassword(email,password)
+          await signInWithEmailAndPassword(email,password)
     }
 
 
