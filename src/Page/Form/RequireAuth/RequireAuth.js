@@ -11,7 +11,7 @@ const RequireAuth = ({children}) => {
     const location = useLocation();
     const [sendEmailVerification, sending, error] = useSendEmailVerification(auth);
 
-console.log(user)
+
 
     if(loading){
         return (

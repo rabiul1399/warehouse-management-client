@@ -3,13 +3,13 @@ import { useParams } from 'react-router-dom';
 import useProduct from '../../../hooks/useProduct';
 
 const Inventory = () => {
-    const {productId} = useParams();
-    const [product] = useProduct(productId);
-    console.log(product)
+    const {id} = useParams();
+    // const [product] = useProduct(productId);
+    console.log(id)
   
     return (
         <div className=''>
-            <h1>This is inventory page </h1>
+            <h1>Inventory page : {id} </h1>
         </div>
     );
 };
