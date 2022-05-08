@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Apple iMac ",
+        "price": "1280",
+        "description": "Although macs and Imacs are not known for gaming. This imac is very fast. However I would maybe go for the 512 GB.",
+        "img": "https://i.ibb.co/n31Lq8M/pexels-serpstat-572056.jpg",
+        "supplier":"APPLE",
+        "quantity":"22"
+
+        
+    },
+    {
+        "id": 2,
+        "name": "Microsoft Edge Computer",
+        "price": "999",
+        "description": "Microsoft Edge was designed to feel at home on a Mac. Easily sync your passwords, favorites, and settings across many devices.",
+        "img": "https://i.ibb.co/0cdyyQ8/pexels-designecologist-1779487.jpg",
+        "supplier":"Microsoft",
+        "quantity":"33"
+    },
+    {
+        "id": 3,
+        "name": "Yacht-Master 42",
+        "price": "690",
+        "description": "An original refinement to an emblematic sailing timepiece: the Yacht-Master 42 is available in 18 kt yellow gold.",
+        "img": "https://i.ibb.co/cwLGLk9/pexels-fernando-arcos-190819.jpg",
+        "supplier":"ROLEX",
+        "quantity":"12"
+    },
+    {
+        "id": 4,
+        "name": "Xiaomi 12 Pro",
+        "price": "670",
+        "description": "Xiaomi 12 Pro comes with a pro-grade 50MP triple camera array, WQHD+ dynamic 120Hz display, the most advanced Snapdragon® 8 Gen 1 chipset yet.",
+        "img": "https://i.ibb.co/KbTBt4Q/phone-screen-with-abstract-marble-aesthetic.jpg",
+        "supplier":"Xiaomi",
+        "quantity":"23"
+    },
+    {
+        "id": 5,
+        "name": "Mac OS X",
+        "price": "950",
+        "description": "MacBook Air is completely transformed by the power of Apple-designed M1 chip. Up to 3.5x faster CPU, 5x faster graphics, and 18 hours of battery life.",
+        "img": "https://i.ibb.co/kgdnDQb/pexels-life-of-pix-7974.jpg",
+        "supplier":"Apple",
+        "quantity":"16"
+    },
+    
+    {
+        "id": 6,
+        "name": "AirPods Max",
+        "price": "300",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/bRbXTwM/pink-headphones-wireless-digital-device.jpg",
+        "supplier":"Samsung",
+        "quantity":"18"
+    }
+ 
+]
+
+
+
+
+
+
