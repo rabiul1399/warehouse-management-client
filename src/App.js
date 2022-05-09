@@ -13,6 +13,7 @@ import AddItem from './Page/MyItem/AddItem/AddItem';
 import MyItems from './Page/MyItem/MyItems/MyItems';
 import NotFound from './Page/NotFound/NotFound';
 
+
 function App() {
   return (
     <div className="App">
@@ -47,6 +48,8 @@ function App() {
           <MyItems></MyItems>
         </RequireAuth>
       }></Route>
+
+     
       <Route path='/*' element={<NotFound></NotFound>}></Route>
     </Routes>
 
