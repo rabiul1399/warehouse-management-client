@@ -11,7 +11,7 @@ Just follow the steps below.</p>
 <button className='btn btn-info'>Get a Quote</button>
             </div>
             <div>
-<img width={500} src="https://i.ibb.co/b3J8dXx/davide-boscolo-gz9njd0z-Yb-Q-unsplash.jpg" alt="" />
+<img className='w-100 mt-3' src="https://i.ibb.co/b3J8dXx/davide-boscolo-gz9njd0z-Yb-Q-unsplash.jpg" alt="" />
             </div>
         </div>
     );

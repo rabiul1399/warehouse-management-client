@@ -17,7 +17,7 @@ import Blogs from './Page/MyItem/Blogs/Blogs';
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       
     <Header></Header>
     <Routes>

@@ -9,7 +9,7 @@ const Inventory = () => {
     const {_id, img, name, price, description, quantity, supplier } = product;
     const updatequantity = quantity -1;
     useEffect(() => {
-        const uri = `http://localhost:5000/product/${id}`;
+        const uri = ` https://salty-thicket-04444.herokuapp.com/product/${id}`;
         fetch(uri)
             .then(res => res.json())
             .then(data => setProduct(data))
@@ -26,7 +26,7 @@ const Inventory = () => {
         // const exists = cart.find(product => product._id === selectedProduct._id);
        
 
-        // const url = `http://localhost:5000/product/${id}`;
+        // const url = ` https://salty-thicket-04444.herokuapp.com/product/${id}`;
         // fetch(url, {
         //     method: "PUT",
         //     headers: {

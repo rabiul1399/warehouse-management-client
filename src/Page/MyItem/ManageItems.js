@@ -11,7 +11,7 @@ const ManageItems = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure Deleted item?')
         if(proceed){
-            const url = `http://localhost:5000/product/${id}`;
+            const url = ` https://salty-thicket-04444.herokuapp.com/product/${id}`;
             fetch(url,{
                 method: 'DELETE'
             })
@@ -25,7 +25,7 @@ const ManageItems = () => {
     }
     return (
         <div className='container'>
-            <h2 className='text-center mt-2'>Manage this all Items</h2>
+            <h2 className='text-center mt-2'>Manage this all Items: {products.length}</h2>
            
             <Link to="/addItem"> <button className='btn  btn-info my-3'>Add new item</button></Link>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
