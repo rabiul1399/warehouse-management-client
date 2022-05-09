@@ -7,23 +7,33 @@ import microsoft from "../../../images/brand/microsoft-logo-png-2402.png"
 const OurBrand = () => {
     return (
 
-<div className=' row row-cols-2 row-cols-md-4   mt-5'>
-<div className=' card  shadow-lg p-3  mb-5 bg-body rounded    '>
-    <img className='rounded' src={samsung} alt="" />
- </div>
 
-<div className=' card shadow-lg p-4 mb-5 bg-body rounded    '>
-    <img className='rounded' src={nokia} alt="" />
+    <div className=" row row-cols-2 row-cols-md-4 px-5 my-5 g-4">
+  <div className="col">
+    <div className="card  border-0 h-100 shadow-lg rounded ">
+      <img src={samsung} alt="" />
+      
     </div>
-<div className=' card shadow-lg p-1  mb-5 bg-body rounded   '>
-    <img className='rounded' src={apple} alt="" />
+  </div>
+  <div className="col">
+    <div className="card  border-0  h-100 shadow-lg rounded">
+    <img src={apple} alt="" />
+      
     </div>
-<div className=' card shadow-lg  mb-5 bg-body rounded '>
-    <img className='rounded' src={microsoft} alt="" />
+  </div>
+  <div className="col">
+    <div className="card  border-0 h-100 shadow-lg rounded">
+    <img className='mt-4' src={nokia} alt="" />
+     
     </div>
-
-
+  </div>
+  <div className="col">
+    <div className="card  border-0 h-100 shadow-lg rounded">
+    <img src={microsoft} alt="" />
+      
     </div>
+  </div>
+</div>
 
     );
 };

@@ -25,9 +25,9 @@ const ManageItems = () => {
     }
     return (
         <div className='container'>
-            <h2>Manage this all Items</h2>
+            <h2 className='text-center mt-2'>Manage this all Items</h2>
            
-            <Link to="/addItem"> <button className='btn btn-primary my-3'>Add new item</button></Link>
+            <Link to="/addItem"> <button className='btn  btn-info my-3'>Add new item</button></Link>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
                 {
                     products.map(product => <div key={product._id}>

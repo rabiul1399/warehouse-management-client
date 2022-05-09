@@ -12,21 +12,23 @@ import ManageItems from './Page/MyItem/ManageItems';
 import AddItem from './Page/MyItem/AddItem/AddItem';
 import MyItems from './Page/MyItem/MyItems/MyItems';
 import NotFound from './Page/NotFound/NotFound';
+import Blogs from './Page/MyItem/Blogs/Blogs';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       
     <Header></Header>
     <Routes>
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='/home' element={<Home></Home>}></Route>
-      
+      <Route path='/blogs' element={<Blogs></Blogs>}></Route>
 
      
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path="/register" element={<Register></Register>}></Route>
+      
 
       <Route path="inventory/:id" element={
         <RequireAuth>
