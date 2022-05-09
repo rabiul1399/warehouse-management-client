@@ -3,7 +3,8 @@ import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import FirstSection from '../ForstSection/FirstSection';
 import Items from '../Items/Items';
-import OureBrand from '../OurBrand/OureBrand';
+import OurBrand from '../OurBrand/OureBrand';
+
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
             <Banner></Banner>
             <Items></Items>
             <FirstSection></FirstSection>
-            <OureBrand></OureBrand>
+            <OurBrand></OurBrand>
 
             <Footer></Footer>
 
