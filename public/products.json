@@ -55,6 +55,99 @@
         "img": "https://i.ibb.co/bRbXTwM/pink-headphones-wireless-digital-device.jpg",
         "supplier":"Samsung",
         "quantity":"18"
+    },
+    {
+        "id": 7,
+        "name": "Apple iMac A7 ",
+        "price": "580",
+        "description": "Although macs and Imacs are not known for gaming. This imac is very fast. However I would maybe go for the 512 GB.",
+        "img": "https://i.ibb.co/NmyMNvV/pexels-cottonbro-3945667.jpg",
+        "supplier":"APPLE",
+        "quantity":"52"
+
+        
+    },
+    {
+        "id": 8,
+        "name": "Nokia Charger AK9",
+        "price": "699",
+        "description": "The Dodge Charger is a model of automobile marketed by Dodge in various forms over seven ... The first Charger was a show .",
+        "img": "https://i.ibb.co/SsdqnQS/charger-usb-cable-type-c-blue-background.jpg",
+        "supplier":"Microsoft",
+        "quantity":"23"
+    },
+    {
+        "id": 9,
+        "name": "Yacht-Master Watch 42",
+        "price": "290",
+        "description": "An original refinement to an emblematic sailing timepiece: the Yacht-Master 42 is available in 18 kt yellow gold.",
+        "img": "https://i.ibb.co/4RvH7Kz/smartwatch-screen-digital-device-1.jpg",
+        "supplier":"ROLEX",
+        "quantity":"32"
+    },
+    {
+        "id": 10,
+        "name": "Samsung 12 Pro",
+        "price": "670",
+        "description": "Samsung watch is  a pro-grade 50MP triple camera array, the most advanced Snapdragon® 8 Gen 1 chipset yet.",
+        "img": "https://i.ibb.co/StRkkkF/pexels-anthony-derosa-236915.jpg",
+        "supplier":"Samsung",
+        "quantity":"28"
+    },
+    {
+        "id": 11,
+        "name": "Ios OS X",
+        "price": "1150",
+        "description": "MacBook Air is completely transformed by the power of Apple-designed M1 chip. Up to 3.5x faster CPU, 5x faster graphics, and 18 hours of battery life.",
+        "img": "https://i.ibb.co/NmyMNvV/pexels-cottonbro-3945667.jpg",
+        "supplier":"Apple",
+        "quantity":"36"
+    },
+    
+    {
+        "id": 12,
+        "name": "AirPods Max pro",
+        "price": "900",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/0t4SW6t/laptop-wooden-table.jpg",
+        "supplier":"Samsung",
+        "quantity":"18"
+    },
+    {
+        "id": 13,
+        "name": "AirPods Max pro",
+        "price": "900",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/0t4SW6t/laptop-wooden-table.jpg",
+        "supplier":"Samsung",
+        "quantity":"48"
+    },
+    {
+        "id": 14,
+        "name": "AirPods Max pro",
+        "price": "900",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/wNXNDJZ/contact-register-feedback-support-help-concept.jpg",
+        "supplier":"Samsung",
+        "quantity":"25"
+    },
+    {
+        "id": 15,
+        "name": "Iphone Max pro",
+        "price": "900",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/rf3yR3r/aram-sabah-sm-VUoz8-CSCw-unsplash.jpg",
+        "supplier":"Samsung",
+        "quantity":"58"
+    },
+    {
+        "id": 16,
+        "name": "Nokia Max pro",
+        "price": "600",
+        "description": "AirPods models deliver an unparalleled wireless experience, from magical setup to high-quality sound. Available with free engraving.",
+        "img": "https://i.ibb.co/mNQRxW2/aram-sabah-sm-VUoz8-CSCw-unsplash.jpg",
+        "supplier":"Samsung",
+        "quantity":"68"
     }
  
 ]

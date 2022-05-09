@@ -31,15 +31,15 @@ const ManageItems = () => {
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
                 {
                     products.map(product => <div key={product._id}>
-                        <div className='card shadow-lg p-3 mb-2 bg-body rounded  border-0  h-100'>
-                            <img className='rounded' src={product.img} alt="" />
+                        <div className='card shadow-lg p-3  bg-body rounded  border-0  h-100'>
+                            <img height={200} className='rounded' src={product.img} alt="" />
                             <h4> {product.name}</h4>
                             <p>{product.description}</p>
                             <p>Price: {product.price}$</p>
                             <p>Quantity: {product.quantity}</p>
                             <small>Supplier: <b>{product.supplier}</b> </small>
                             <br />
-                            <button onClick={() => handleDelete(product._id)} className="btn btn-primary">Delete</button>
+                            <button onClick={() => handleDelete(product._id)} className="btn btn-primary mb-0">Delete</button>
                         </div>
                     </div>
                     )
