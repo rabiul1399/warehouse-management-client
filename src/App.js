@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import ManageItems from './Page/MyItem/ManageItems';
 import AddItem from './Page/MyItem/AddItem/AddItem';
 import MyItems from './Page/MyItem/MyItems/MyItems';
+import NotFound from './Page/NotFound/NotFound';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <MyItems></MyItems>
         </RequireAuth>
       }></Route>
+      <Route path='/*' element={<NotFound></NotFound>}></Route>
     </Routes>
 
  

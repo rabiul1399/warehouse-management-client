@@ -1,17 +1,14 @@
-import  { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useEffect, useState } from "react";
 
-const useProduct = () => {
-   const {id} = useParams;
-   console.log(id)
-    const [products, setProducts] = useState({});
-    useEffect(() => {
-        fetch( `http://localhost:5000/product/${id}`)
-            .then(res => res.json())
-            .then(data => setProducts(data))
+const useProducts = () =>{
+   const [products, setProducts]= useState([]);
 
-    }, [id])
-    return [ products,setProducts]
-};
+useEffect( ()=>{
+    fetch('https://salty-thicket-04444.herokuapp.com/product')
+    .then(res => res.json())
+    .then(data => setProducts(data));
+}, []);
+    return [products, setProducts]
+}
 
-export default useProduct;
+export default useProducts;
