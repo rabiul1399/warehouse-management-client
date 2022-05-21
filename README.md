@@ -5,7 +5,7 @@
 ### Private Repository Link: https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-rabiul1399
 
 
-### server side Link: https://salty-thicket-04444.herokuapp.com/product
+### server side Link: https://boiling-inlet-70578.herokuapp.com/product
 
 ### Server side Private Repository link : https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-rabiul1399
 

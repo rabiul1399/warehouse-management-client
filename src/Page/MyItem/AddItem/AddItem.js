@@ -9,9 +9,9 @@ const AddItem = () => {
     console.log(user)
 
     const onSubmit =(data) => {
-        console.log(data);
+       
 
-         const url = ` https://salty-thicket-04444.herokuapp.com/product`;
+         const url = `https://boiling-inlet-70578.herokuapp.com/product`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -22,6 +22,7 @@ const AddItem = () => {
         .then(res=> res.json())
         .then(result =>{
             console.log(result);
+            alert('Added this product item ')
         } )
         
     };

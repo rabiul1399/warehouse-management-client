@@ -11,7 +11,7 @@ const ManageItems = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure Deleted item?')
         if(proceed){
-            const url = ` https://salty-thicket-04444.herokuapp.com/product/${id}`;
+            const url = `https://boiling-inlet-70578.herokuapp.com/${id}`;
             fetch(url,{
                 method: 'DELETE'
             })

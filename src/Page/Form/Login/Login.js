@@ -15,7 +15,7 @@ const Login = () => {
     const passwordRef =useRef();
     
     const location = useLocation();
-    let from = location.state?.from?.pathname || '/';
+    let from = location.state?.from?.pathname || "/";
     let errorElement;
 
     const [
